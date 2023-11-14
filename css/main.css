@@ -1,0 +1,84 @@
+.All {
+  width: 375px;
+  height: 812px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.Background {
+  width: 375px;
+  height: 565.82px;
+  background: #F3F3F3;
+  opacity: 1;
+  position: absolute;
+  top: 246.18px;
+  left: 0px;
+}
+
+.head {
+  width: 375px;
+  height: 246.18px;
+  background: url("../images/head.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+
+.menu {
+  width: 302px;
+  height: 128px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 303.09px;
+  left: 36px;
+
+}
+
+.menu7 {
+  width: 302px;
+  height: 128px;
+  background: rgba(255,255,255,1);
+  background: url("../images/menu7.png");
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+
+}
+
+.menu2 {
+  width: 302px;
+  height: 128px;
+  background: url("../images/menu2.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  opacity: 1;
+  position: absolute;
+  top: 162px;
+  left: 0px;
+}
+
+
+.menu3 {
+  width: 302px;
+  height: 128px;
+  background: url("../images/menu3.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 324px;
+  left: 0px;
+}
+
