@@ -1,19 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>식품영양정보</title>
-
     <script>
-        function openInfoScroll1() {
-            window.location.href = "info scroll 1.html";
-        }
-
-        function openCookScroll1() {
-            window.location.href = "cook scroll 1.html";
-        }
-
-        function openHealthScroll1() {
-            window.location.href = "health scroll 1.html";
+        function openNewHTML() {
+            window.location.href = "index.html";
         }
     </script>
 
@@ -23,7 +13,6 @@
             padding: 0;
         }
         .header-2 {
-
             top: 0;
             left: 0;
             width: 100%;
@@ -32,51 +21,54 @@
             background-color: #f2f2f2;
         }
 
-        .header-2 img {
+        .header-2 img {width: 100%;
+        height:100%}
+
+        .header-1 {
+            position: relative;
+            top: 0;
+            left: 0;
             width: 100%;
-            height:100%
+            height: 100%;
+            display: flex;
+            background-color: #f2f2f2;
         }
+       
+        .header-1 img {width: 100%;
+        height: 100%;}
 
 
-    .head img {
-        width:100%;
-        height:100%;
-    }
-
-    .scroll-container {
-
+        .scroll-container {
+            height: calc(100vh - 246.18px);
             overflow-y: scroll;
             display: flex;
             flex-direction: column;
             align-items: flex-start;
-            margin: 100px;
-    }
-
-    .scroll-container img {
+        }
+        .scroll-container img {
             width: 100%;
             height: 100%;
             top: 0;
             left: 0;
-            margin-top: 25px;
-            margin-bottom: 70px;
+            margin-bottom: 0px;
             max-width: 100%;
             height: auto;
-            margin-right: auto;
         }
-
-    
     </style>
-
 </head>
 <body>
+    <div class="header-1" onclick="openNewHTML()">
+        <img src="image_h1/Group 388.png" alt="이미지 1">
+    </div>
     <div class="header-2">
-        <img src="images/head.png" alt="이미지 2">
+        <img src="image_h1/Group 386.png" alt="이미지 2">
     </div> 
-        <div class="scroll-container">
-                <img src="images/menu7.png" alt="이미지2" onclick="openInfoScroll1()">
-                <img src="images/menu2.png" alt="이미지3" onclick="openCookScroll1()">
-                <img src="images/menu3.png" alt="이미지4" onclick="openHealthScroll1()">
-        </div>
+    <div class="scroll-container">
+        <img src="image_h1/Group 368.png" alt="이미지 3">
+        <img src="image_h1/Group 379.png" alt="이미지 4">
+        <img src="image_h1/Group 381.png" alt="이미지 5">
+        <img src="image_h1/Group 382.png" alt="이미지 6">
+        
     </div>
 </body>
 </html>
