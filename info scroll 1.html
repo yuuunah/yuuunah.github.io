@@ -9,37 +9,37 @@
     </script>
 
     <style>
-        body {
+         body {
             margin: 0;
             padding: 0;
         }
         .header-2 {
-            position: fixed;
             top: 0;
             left: 0;
-            width: 375px;
-            height: 246.18px;
+            width: 100%;
+            height: 100%;
             display: flex;
-            justify-content: center;
-            align-items: center;
             background-color: #f2f2f2;
         }
+
+        .header-2 img {width: 100%;
+        height:100%}
+
         .header-1 {
-            position: fixed;
+            position: relative;
             top: 0;
             left: 0;
-            width: 375px;
-            height: 48px;
+            width: 100%;
+            height: 100%;
             display: flex;
-            justify-content: center;
-            align-items: center;
             background-color: #f2f2f2;
         }
        
+        .header-1 img {width: 100%;
+        height: 100%;}
 
 
         .scroll-container {
-            margin-top: 246.18px;
             height: calc(100vh - 246.18px);
             overflow-y: scroll;
             display: flex;
@@ -47,23 +47,24 @@
             align-items: flex-start;
         }
         .scroll-container img {
+            width: 100%;
+            height: 100%;
             top: 0;
             left: 0;
             margin-bottom: 0px;
             max-width: 100%;
             height: auto;
+            
         }
     </style>
 </head>
 <body>
+    <div class="header-1" onclick="openNewHTML()">
+        <img src="images/Group 119.png" alt="이미지 1">
+    </div>
     <div class="header-2">
         <img src="images/Group 158.png" alt="이미지 2">
-    </div> 
-
-    <div class="header-1" onclick="openNewHTML()">
-            <img src="images/Group 119.png" alt="이미지 1">
     </div>
-
     <div class="scroll-container">
         <img src="images/Group 195.png" alt="이미지 3">
         <img src="images/Group 196.png" alt="이미지 4">
